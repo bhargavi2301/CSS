@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asidebar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ul {
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            gap: 40px;
+            /* text-decoration: none; */
+
+        }
+        ul li{
+        list-style-type: none;
+        }
+        .nav{
+            background-color: aquamarine;
+            width: 100%;
+            position: fixed;
+            padding: 15px;
+            top: 0;
+            z-index: 2;
+        }
+        .asidebar{
+            position: fixed;
+            background-color: blue;
+            padding: 150px;
+            top: 10;
+            width:18%;
+        
+        }
+        .navbar{
+            top: 0;
+        }
+        .asidebar1{
+            position: fixed;
+            background-color: rgb(255, 213, 0);
+            padding: 150px;
+            width: 18%;
+            margin-left: 77%;
+            margin-bottom: 50px;
+        }
+        .asidebar2{
+            color: aliceblue;
+            position: absolute;
+            background-color: black;
+            width:55%;
+            padding: 170px;
+            right: 289px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        
+         <div class="nav">
+            <div class="navmenu">
+              <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact</li>
+                <li>portfolio</li>
+                <li>menu</li>
+              </ul>
+            </div>
+        </div>
+        <div class="asidebar">
+        </div>
+        <div class="asidebar1">
+        </div>
+        <div class="asidebar2">
+        <p>   Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>
+              Soluta beatae incidunt illum repudiandae aut, ducimus qui optio<br>
+              vel quod illo autem distinctio necessitatibus. Similique nam dolores <br>necessitatibus nostrum, officia debitis?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit<br>.<br> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit><br><br>
+                    . Nesciunt at aut vero quisquam. Debitis, eum ab ducimus <br>
+                    alias consectetur perferendis, provident nostrum dolorum nisi<br>
+                     pariatur adipisci dolor accusantium ad nesciunt.</p><br><br>
+                Quia quis harum deleniti atque provident animi vel accusamus<br>,<br>
+                 similique nam nobis maiores saepe asperiores reiciendis fugiat <br>
+                 suscipit qui nihil nostrum esse.</p>
+         </div>
+    </div>
+</body>
+</html>

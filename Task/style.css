@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.col-50{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 300px;
+}
+i{
+    font-size:100px;
+}
+.ball h1{
+    font-size:50px;
+}
+.page2 h2{
+    font-size: 20px;
+}
+.page2{
+    border: 1px;
+}
+.SIGNIN{
+    background-color: cadetblue;
+    border-radius: 20px;
+    border-color:white;
+    width: 100px;
+    height: 50px;
+}
+ .signup{
+    background-color: cadetblue;
+    border-radius: 8px;
+    border-color:white;
+    width: 500px;
+    height: 50px;
+ }   
+.Table1{
+    position: absolute;
+    margin-top: 10px;
+
+}
+.html.Table2{
+    position: absolute;
+    top: 10px;
+}
+.data{
+    background-color: #faf8ef;
+border: 1px solid black;
+}
+.data h4{
+    display: flex;
+    justify-content: space-between;
+}
+.boxes .date{
+    padding: 10px;
+    background-color: #ebe3cd;
+}
+.Table.llusi{
+    padding-left:10px;
+}
+
