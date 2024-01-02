@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="#bmedia.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .logo {
+    margin: 10px;
+    padding: 30px;
+    padding-right:200px;
+  }
+  .logo img{
+    padding-left: 30px;
+  }
+  .nav-menu{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+  }
+  .nav{
+    display: flex;
+    padding-top:40px;
+    padding-left: 10px;
+  }
+  ul li {
+    display: inline;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+  }
+  ul li a {
+    display: flex;
+    justify-content: space-around;
+    display: inline;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600px;
+    text-decoration: none;
+  }
+  ul li a {
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+    display: inline;
+    margin: 10px;
+  }
+  .get{
+    padding-bottom:10px;
+    color: aliceblue; 
+    padding-left:100px;
+    font-size: large;
+    font-size: 40px;
+  }
+  .cash{
+    padding-bottom: 50px; 
+    padding: 20px;
+  }  
+  button {
+    border:none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    border-radius:80px;
+    background-color: rgb(248, 13, 13);
+    color: white;
+    border: color 1px black;
+  }
+  header {
+    background-image: url(../CSS_IMG/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(1\).png);
+    height: 600PX;
+    width: 100%;
+    opacity: 0.8px;
+  }
+  .third {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+  }
+  .middle {
+    position: relative;
+    background-color: rgb(245, 219, 188);
+    margin: auto;
+    padding: 80px;
+    width: 100%;
+  }
+  .onion {
+
+    position: absolute;
+    top: 50px;
+    left: 200PX;
+  }
+  .berger {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+  .leaf {
+    position: absolute;
+    bottom: 10px;
+    left: 350px;
+  }
+  .frenchfry {
+    position: absolute;
+    top: 120px;
+    bottom: 200px;
+  }
+  .mashroom {
+    position: absolute;
+    bottom: 10px;
+    right: 500px;
+  }
+
+  .circle{
+    justify-content: space-between;
+    display: inline;
+    justify-content: space-around;
+    display: flex;
+  }
+  .bestb {
+    font-size: 20px;
+    color: white;
+    /* margin: 0 auto; */
+  }
+  .contain{
+    background-color: rgb(219, 39, 39);
+    color: white;
+    display: flex;
+    /* display: inline; */
+    justify-content: space-around;
+    padding: 100px;
+  }
+  .bestb{
+    display: flex;
+    gap: 60px;
+  }
+  .Burg{
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+  }
+  .bimg{
+    size: 60px;
+    /* height: 300px; */
+    /* width: 300px; */
+    /* border-radius: 50%; */
+  }
+  .bestb button{
+    margin: 40px 0;
+    background-color: aliceblue;
+    color: red;
+  }
+   .contain1{
+  background-color: rgb(245, 222, 190);
+  align-items:center ;
+  flex-direction: row-reverse;
+  padding: 100px;
+  } 
+  .pen{
+    display: flex;
+  }
+  .big{
+    color: rgb(240, 62, 62);
+    font-size: 30px;
+    padding-right:100px;  
+  }
+  .colum button{
+    margin: 30px 0;
+  }
+  .contain2{
+    background-color:rgb(240, 4, 51);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: larger;
+  }
+  .circle-1{
+    padding: 50px;
+    display: flex;
+    margin-left: 100px;
+    gap: 100px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .circle1{
+  height: 200PX;
+  width: 200PX;
+  border:2px solid white;
+  border-radius:50%;
+  justify-content: space-between;
+  gap: 30px;
+  text-align: center;
+  }
+  .circle1 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 45px;
+  }
+  .circle1 p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+  }
+  .circle2{
+        height: 200PX;
+        width: 200PX;
+        border: 2px solid white;
+        border-radius: 50%;
+  }
+  .circle2 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 45px;
+  }
+  .circle2 p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+  }
+  .circle3{
+    height: 200PX;
+    width: 200PX;
+    border:2px solid white;
+    border-radius:50%;
+  }
+  .circle3 h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 45px;
+  }
+  .circle3 p
+  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+  }
+ .css{
+   background-color: rgb(250, 220, 181);
+   padding-top: 25px;
+   text-align: center;
+   font-size: 30px;
+   color:rgb(240, 4, 51);
+   font-weight: bolder;
+  }
+  .sticker{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+  }
+  .contain2{
+   padding:100PX;
+  }
+  .contain4{
+    opacity:0.800;
+    color: aliceblue;
+    background: url(../CSS_IMG/tomato_img.png);
+    padding: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    padding: 100px;
+  }
+  .page07{
+    padding: 50px;
+  }
+.barry{
+  padding-top: 100px;
+  }
+.contain5{
+  background-color: rgb(248, 225, 191);
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+  color: rgb(250, 45, 8);
+}
+.berger4{
+ position: absolute;
+ top: 5px;
+ right: 3px;
+}
+.page8 .btn {
+  width: 120px;
+  height: 20px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  font-size: 13px;
+}
+.page09{
+  display: flex;
+  margin: 0 auto;
+  padding: 140px;
+  line-height: 30px;
+  /* font-size: px; */
+}
+.footer1{
+  justify-content: space-between;
+  display: flex;
+  gap: 30px;
+}
+.contain6{
+  
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+.footer1 .table{
+justify-content: space-between;
+}
+.contain1{
+  position: relative;
+}
+.berger1{
+  position: absolute;
+  top: 1px;
+  left: 450px;
+}
+.french{
+  position: absolute;
+  bottom: 0;
+  right: 2px;
+} 
+.mashroom1{
+  position: absolute;
+  bottom: 2px;
+  left: 500px;
+  padding-bottom: 40px;
+}
+.leaf1{
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+.bking img{
+  border:1px solid white;
+  border-radius: 50%;
+}
+.big01 img{
+  border:1px solid white;
+  border-radius: 50%;
+}
+.onion1{
+  position: absolute;
+  bottom: 10px;
+  left: 120px;
+}
+.chilli1{
+  position: absolute;
+  top: 90px;
+  left: -7px;
+}
+.big{
+  padding-top: 60px;
+}
+.img4{
+  position: relative;
+}
+.berger4{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.french4{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+
+}
+.mashroom4{
+  position: absolute;
+  bottom: 5px;
+  left: -5px;
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <div class="wraper">
+      <div class="content">
+
+        <div class="nav">
+
+          <div class="logo">
+            <label for=""><img src="../CSS_IMG/Place Your Logo Here (Double Click to Edit).png" alt=""></label>
+          </div>
+          <div class="nav-menu">
+            <ul>
+              <li><a href="">home</a></li>
+              <li><a href="">product</a></li>
+              <li><a href="">promo</a></li>
+              <li><a href="">about</a></li>
+              <li><a href="">content</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="get">
+          <h1 class="Cash"><b>Get Cashback<br>
+              up to 50%</b></h1>
+          <p class="title">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Suspendisse consectetur <br>justo eu nunc
+            consequat.</p>
+          <button class="order">ORDER NOW</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="middle">
+    <div class="third">
+      <h1>our chef</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Vivamus lacinia odio vitae vestibulum vestibulum.
+      </p>
+      <div class="circle">
+        <img src="../CSS_IMG/Card.png" alt="">
+        <img src="../CSS_IMG/Card (1).png" alt="">
+        <img src="../CSS_IMG/Card (2).png" alt="">
+      </div>
+    </div>
+    <div class="four">
+      <img class="onion" src="../CSS_IMG/Vector Smart Object (6).png" alt="">
+      <div class="berger">
+        <img src="../CSS_IMG/Vector Smart Object (1).png" alt="">
+      </div>
+      <div class="a2">
+        <img src="../CSS_IMG/Vector Smart Object (2).png" alt="">
+      </div>
+      <div class="frenchfry">
+        <img src="../CSS_IMG/Vector Smart Object (3).png" alt="">
+      </div>
+      <div class="mashroom">
+        <img src="../CSS_IMG/Vector Smart Object (4).png" alt="">
+      </div>
+      <div class="leaf">
+        <img src="../CSS_IMG/Vector Smart Object (5).png" alt="">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="section">
+    <div class="contain">
+      <!-- <div class="contain01"> -->
+       <div class="bestb">
+      <div class="bimg">
+        <!-- <img src="../CSS_IMG/bergerimg.png" alt="">   -->
+      </div> 
+      <div class="Burg">
+        <div class="bking">
+          <img src="../CSS_IMG/bergerking.png" alt="">
+        </div>
+        <div class="lorem">
+        <h1><b>Best Burger</b></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Vivamus lacinia odio vitae<br> vestibulum
+          vestibulum. </p>
+        <button>ORDER NOW</button>
+        </div>
+      </div>  
+    </div>
+  </div>
+  </div>
+  <!-- <section id="section1"> -->
+    <div class="contain1">
+      <div class="pen">
+        <div class="big">
+         <h1>Big Burger</h1><br>
+         <p>Lorem ipsum dolor sit amet,consectetur<br>adipcing elit.Vivamus lacinia odiovitae<br>vestibulum vestibulum ftg. </p><br>
+         <button>ORDER NOW</button>
+       </div>
+       <div class="big01">
+        <img src="../CSS_IMG/bergerking.png" alt="">
+       </div>
+       </div>
+    <div class="img2">
+      <div class="">
+      <img class="berger1" src="../CSS_IMG/Vector Smart Object (1).png" alt="">
+     </div>
+    <!-- <div> -->
+      <!-- <img class="frenchfry1" src="CSS/CSS_IMG/Vector Smart Object(2).png" alt=""> -->
+    <!-- </div>  -->
+   <div>
+      <img class="mashroom1" src="../CSS_IMG/Vector Smart Object (4).png" alt="">
+    </div>
+    <div>
+      <img  class="leaf1" src="../CSS_IMG/Vector Smart Object (5).png" alt="">
+    </div>
+    <div>
+      <img class="onion1" src="../CSS_IMG/Vector Smart Object (6).png" alt="">
+    </div>
+    <div>
+      <img class="chilli1" src="../CSS_IMG/Vector Smart Object (7).png" alt="">
+     </div>
+     <div>
+      <img  class="french" src="../CSS_IMG/french.png" alt="">
+     </div>
+       </div>
+         </div>
+  </section>
+  <section id="section2">
+  <div class="contain2">
+    <div class="ball">
+      <h1>Statistics</h1><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+      <div class="circle-1">
+           <div class="circle1">
+              <h1>7K</h1>
+              <P>COSTOMER</P>
+           </div>
+           <div class="circle2">
+               <h1>109</h1>
+                <p>UOTLETS</p>
+           </div>
+           <div class="circle3">
+                <h1>35</h1>
+                <p>COUNTRY</p>
+            </div>
+      </div> 
+    </div>
+  </div>
+  </section>
+  <!-- <section id="section3">
+    <div class="contain3">
+     <div class="css">
+     <h1><b>Popular Package</b></h1>
+     <div class="sticker">
+     <img src="../CSS_IMG/sticker-1.png" alt="">
+     <img src="../CSS_IMG/sticker-2.png" alt="">
+     <img src="../CSS_IMG/sticker-3.png" alt="">
+     </div>
+     <div class="img4">
+      <div class="berger4">
+     <img src="../CSS_IMG/Vector Smart Object (1).png" alt="">
+      </div>
+      <div class="french4">
+     <img src="CSS/CSS_IMG/Vector Smart Object(2).png" alt="">
+     </div>
+     <div class="onion4">
+     <img src="CSS/CSS_IMG/Vector Smart Object (6).png" alt="">
+     </div>
+     <div class="mashroom4">
+     <img src="../CSS_IMG/Vector Smart Object (4).png" alt="">
+     </div>
+     <div class="leaf4">
+     <img src="../CSS_IMG/Vector Smart Object (5).png" alt="">
+     </div>
+     <div class="">
+     <img src="../CSS_IMG/Vector Smart Object (6).png" alt="">
+     </div>
+     <div>
+     <img src="../CSS_IMG/Vector Smart Object (7).png" alt="">
+     </div>
+     </div>
+     </div>
+    </div>
+  </section> -->
+  <div class="page-6">
+    <div class="page06">
+        <div class="line1">
+            <!-- <br> -->
+            <h1>Popular Package</h1>
+            <br>
+            <!-- <br> -->
+            <br>    
+            <br>
+        </div>
+        <div class="Package">
+            <div class="Package01">
+                <h3>PACKAGE 1</h3>
+                <br>
+                <img src="../CSS_IMG/img0001.png" alt="">
+                <br>
+                <h3>$10.00</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+                <br>
+                <button>Order Now</button>
+                <br>
+            </div>
+                    <div class="Package02">
+                        <h3>PACKAGE 2</h3>
+                        <br>
+                        <img src="../CSS_IMG/img0001.png" alt="">
+                        <br>
+                        <h3>$20.00</h3>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+                        <br>
+                        <button>Order Now</button>
+                        <br>
+                    </div>
+                    <div class="Package03">
+                        <h3>PACKAGE 3</h3>
+                        <br>
+                        <img src="../CSS_IMG/img0001.png" alt="">
+                        <br>
+                        <h3>$30.00</h3>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+                        <br>
+                        <button>Order Now</button>
+                        <br>
+                    </div>
+        </div>
+    </div>
+  </div>
+  <section id="section4">
+    <div class="contain4">
+      <div class="html">
+        <div class="page07">
+          <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Vivamus lacinia odio vitae<br>vastibulum vestibulum</p>
+          <br>
+          <br>
+          <h1>Barry Henderson</h1>
+        </div> 
+      </div>
+   </div> 
+  </section>
+  <section id="section5">
+     <div class="contain5">
+      <div class="page08">
+
+         <div class="page8">
+            <h1>Don’t miss Our Update</h1><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Vivamus lacinia odio vitae vestibulum vestibulum. </p><br>
+            <input type="your Email" placeholder="Your Email"> <button class="btn">subscribe</button>
+        </div>
+        </div>
+  <div class="img3">
+    <div class="berger5">
+    <img src="../CSS_IMG/Vector Smart Object (1).png" alt="">
+    </div>
+    <div class="french5">
+    <img src="../CSS_IMG/Vector Smart Object(2).png" alt="">
+    </div>
+    <div class="mashroom">
+    <img src="../CSS_IMG/Vector Smart Object (4).png" alt="">
+    </div>
+    <div class="">
+    <img src="../CSS_IMG/Vector Smart Object (5).png" alt="">
+    </div>
+    <div>
+    <img src="../CSS_IMG/Vector Smart Object (5).png" alt="">
+    </div>
+    <div>
+    <img src="../CSS_IMG/Vector Smart Object (6).png" alt="">
+    </div>
+    <div>
+    <img src="../CSS_IMG/Vector Smart Object (7).png" alt="">
+    </div>
+    <div>
+    <img src="../CSS_IMG/Vector Smart Object (7).png" alt="">
+    </div>
+  </div>
+  </section>
+  <!-- <section id="section6"> -->
+  <div class="contain6">
+    <div class="page09">
+      <div class="footer1">
+        <div class="table">
+         <h3>Title Here</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur<p>
+         adipiscing elit. Aliquam at dignissim nunc,<br>
+        id maximus ex. Etiam nec dignissim elit, at<br> dignissim enim. </p>
+      
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-whatsapp"></i><br>
+     </div>
+     <div class="footer2">
+      <h3>About</h3>
+      
+        <p>Histoey</p>
+        <p>Our Team</p>
+        <p>Brand Guideline</p>
+        <p>Terms& Condition</p>
+        <p>PrivecyPolicy</p>
+     </div>
+
+     <div class="footer3">
+      <h3>Service</h3>
+      
+         <p>How to Order</p>
+         <p>Our Product</p>
+         <p>Order Status</p>
+         <p>Promo</p>
+         <p>Payment Method</p>
+      </div>
+     <div class="footer4">
+      <h3>Other</h3>
+    
+      <p>Contect Us</p>
+      <p>Help</p>
+      <p>Privacy</p>
+      
+     </div>
+     </div>
+</div>
+</div>
+</div>
+</section>
+</body>
+</html>

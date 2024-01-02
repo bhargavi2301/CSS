@@ -1,0 +1,586 @@
+ @media (max-width:1200px) {
+     .Table1 {
+         top: 183%;
+     }
+
+     .Table2 {
+         top: 183%;
+     }
+
+     .llusi img {
+
+         padding-left: 79px;
+     }
+
+     .Table3 {
+         top: 218%;
+
+     }
+
+     .Table4 {
+         top: 218%;
+     }
+
+     .covid19 {
+         font-size: 31px;
+     }
+
+     .covid button {
+         width: 100px;
+         padding: 14px;
+     }
+
+     .covid h2 {
+         font-size: 40px;
+     }
+ }
+
+ @media (max-width:992px) {
+     .box {
+
+         padding: 14px;
+         width: 43%;
+     }
+
+     .box1 {
+         padding: 14px;
+         width: 43%;
+     }
+
+     .box2 {
+         padding: 14px;
+         width: 43%;
+     }
+
+     .lemon {
+         top: 26px;
+         right: 111px;
+     }
+
+     .f-2 {
+         display: none;
+     }
+
+     .spoon {
+         top: 30%;
+         right: 35%;
+     }
+
+     .headtab {
+         margin-top: 508px;
+     }
+
+     .headtab2 {
+         gap: 2px;
+     }
+
+     .window1 {
+         top: 42%;
+         right: 340px;
+     }
+
+     .lamp {
+         right: 256px;
+     }
+
+     .plant {
+         left: 27%;
+         top: 65%;
+     }
+
+     .Table1 {
+         top: 208%;
+     }
+
+     .llusi img {
+         padding-left: 32px;
+         height: 300px;
+     }
+
+     .Table2 {
+         top: 208%;
+     }
+
+     .Table3 {
+         top: 235%;
+         left: 183px;
+     }
+
+     .Table4 {
+         top: 235%;
+     }
+
+     .a4 {
+         margin-left: -120px;
+         width: 87%;
+         padding-right: 18px;
+     }
+
+     .bottele {
+         top: 414px;
+     }
+
+     .pg4 {
+         right: 97px;
+         top: 547px;
+
+     }
+
+     button.check01 {
+         height: -15px;
+         width: 196px;
+     }
+
+ }
+
+ @media (max-width: 768px) {
+     .BOXES {
+         flex-wrap: wrap;
+     }
+
+     .boxC {
+         margin-top: 10px;
+     }
+
+     .headtab2 {
+         flex-wrap: wrap;
+     }
+
+     button.check01 {
+         width: 220px;
+     }
+
+     .lemon {
+         /* top: 44px; */
+         right: -20px;
+     }
+
+     .box {
+         width: 58%;
+     }
+
+     .box1 {
+         width: 58%;
+     }
+
+     .box2 {
+         width: 58%;
+     }
+
+     .footer {
+         width: 114%;
+     }
+
+     .f-2 p {
+         display: none;
+     }
+
+     .a6 {
+         width: 112%;
+
+     }
+
+     .f-2 img {
+         display: none;
+     }
+
+     .chef {
+         top: 36%;
+         right: -2%;
+     }
+
+     .spoon {
+         top: 25%;
+         right: 27%;
+     }
+
+     .a01 {
+         font-size: 23px;
+         padding-top: -12px;
+     }
+
+     .navbar {
+         width: 91%;
+         padding: 29px 33
+     }
+
+     .menimg {
+         height: 343px;
+         width: 533px;
+         top: 74%;
+         left: 237px;
+     }
+
+     .window1 img {
+         height: 177px;
+         width: 92px;
+     }
+
+     .window2 img {
+         height: 177px;
+         width: 92px;
+     }
+
+     .window2 {
+         top: 330px;
+         right: -0.5%;
+     }
+
+     .window1 {
+         right: 283px;
+         top: 330px;
+     }
+
+     .plant {
+         height: 185px;
+         left: 33%;
+         top: 82%;
+     }
+
+     .Table1 {
+         top: 348%;
+     }
+
+     .Table2 {
+         top: 348%;
+     }
+
+     .llusi img {
+         padding-left: 1px;
+         height: 302px;
+     }
+
+     .Table3 {
+         top: 396%;
+         left: 82px;
+     }
+
+     .Table4 {
+
+         top: 396%;
+         right: -66px;
+     }
+
+     .a4 {
+         margin-left: -99px;
+         width: 196%;
+         padding-right: -9px;
+         padding-top: 65%;
+     }
+
+     .pg4 {
+         right: -92px;
+         top: 499px;
+     }
+
+     .bottele {
+         top: 363px;
+         left: 48%;
+     }
+
+     .lamp {
+         right: 101px;
+     }
+ }
+
+
+ @media (max-width: 576px) {
+     .lamp {
+         right: 9%;
+         top: 40px;
+     }
+
+     body {
+         overflow-x: hidden;
+     }
+
+     .window1 {
+         top: 60%;
+         right: 25%;
+     }
+
+     .window1 img {
+         padding: 10px;
+         height: 150px;
+         margin: 10px;
+     }
+
+
+     .window2 {
+         top: 60%;
+     }
+
+     .window2 img {
+         padding: 10px;
+         height: 150px;
+         margin: 10px;
+     }
+
+     .contain {
+         padding-left: 20px;
+         padding-top: 75px;
+     }
+
+     .a01 {
+         font-size: 20px;
+         padding-left: 3PX;
+     }
+
+     .menimg {
+         top: 93%;
+         left: 66px;
+     }
+
+     .window2 {
+         top: 81%;
+     }
+
+     .window1 {
+         top: 79%;
+         right: 45%;
+     }
+
+     .BOXES {
+         display: flex;
+         gap: 32px;
+         justify-content: space-evenly;
+     }
+
+     .boxA {
+         width: 200px;
+         padding: 1px;
+     }
+
+     .boxB {
+         padding-top: 2px;
+         width: 200px;
+         padding: 2px;
+     }
+
+     .boxC {
+         width: 200px;
+         padding: 1px;
+         margin-top: 7px;
+     }
+
+     .Table1 {
+         top: 413%;
+     }
+
+     .Table2 {
+         top: 413%;
+         right: -58px;
+     }
+
+     .llusi img {
+         width: 30%px;
+         height: 190px;
+         padding-left: 1px;
+         padding-top: 120px;
+     }
+
+     .llusi img {
+         width: 1500%;
+         margin-left: -80px;
+        
+     }
+
+     .Table3 {
+
+         top: 350%;
+         left: 270px;
+
+     }
+
+     .Table4 {
+         top: 350%;
+         right: 150px;
+         /* z-index:-1; */
+     }
+
+     .a4 {
+         width: 163%;
+         padding-right: 2px;
+         padding-top: 90%;
+         margin-left: -112PX;
+         /* margin-right:  */
+     }
+
+     .a4 p {
+         font-size: 10px;
+     }
+
+     .f-2 p {
+         display: none;
+     }
+
+     .footer-2 h1 {
+         font-size: 15px;
+         padding-left: 42px;
+     }
+
+     .f-2 p {
+         font-size: 18px;
+         /* padding-top: 20px; */
+         padding-right: 10px;
+     }
+
+     .a4 button {
+         width: 35%;
+         /* height: 30px; */
+         padding: 3px;
+     }
+
+     .bottele {
+         top: 325px;
+         left: 45%;
+     }
+
+     .pg4 img {
+         width: 70%;
+         height: 300px;
+     }
+
+     .pg4 {
+         right: -79px;
+         top: 447px;
+     }
+
+     .line1 {
+         width: 60%;
+         height: 50px;
+     }
+
+     .line2 {
+         width: 60%;
+         height: 50px;
+     }
+
+     .line3 {
+         width: 60%;
+         height: 50px;
+     }
+
+     .sub {
+         font-size: 20px;
+     }
+
+     .MSG button {
+         width: 127px;
+     }
+
+     .leaf1 {
+         top: 114PX;
+         left: -18PX;
+     }
+
+     .lemon {
+         top: 44px;
+         right: -65px;
+     }
+
+     .footer-2 {
+         width: 20%;
+     }
+
+     .f-1 {
+         width: 70%;
+         padding: 20px;
+         margin: 2px;
+     }
+
+     .footer-2 {
+         width: 77px;
+         padding-top: 47px;
+     }
+
+     .box1 {
+         width: 80%;
+     }
+
+     .box2 {
+         width: 80%;
+     }
+
+     .box {
+         width: 80%;
+     }
+
+     .a6 p {
+         font-size: 10px;
+
+     }
+
+     .chef img {
+         padding-bottom: 90px;
+         margin: 5px;
+         width: 250px;
+         height: 422px;
+         padding-top: 94px;
+     }
+
+     .a6 {
+         padding-top: 140px;
+     }
+
+     .spoon img {
+         padding: 10px;
+         width: 150px;
+     }
+
+     .spoon {
+         top: 261px;
+         right: 27%;
+     }
+
+     .chef {
+         top: 31%;
+         right: 6%;
+     }
+
+     .fresh {
+         padding-top: 31%;
+         font-size: 69%;
+         font-weight: 900;
+     }
+
+     .fish {
+         width: 40%;
+         height: 455px;
+         padding-top: 47px;
+     }
+
+     .headtab2 {
+         flex-wrap: wrap;
+     }
+
+     button.check01 {
+         width: 200px;
+         padding: 30px;
+
+     }
+
+     .headtab {
+         padding-top: 0px;
+         margin-top: 365px;
+     }
+
+     .plant img {
+         height: 90px;
+         width: 60%;
+     }
+
+     .plant {
+         top: 122%;
+     }
+
+     .BOXES {
+         flex-wrap: wrap;
+     }
+
+     .footer-2 h3 {
+         padding: 20px;
+         width: 170px;
+     }
+
+ }
